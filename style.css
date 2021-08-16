@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#btn, #save, #pre{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#increment-btn{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    block-size: 40px;
+    padding: 5px 28px 5px 28px;
+    font-weight: bold;
+    background: darkred;
+}
+
+#save-btn{
+    font-size: 20px;
+    background: rgb(19, 99, 19);
+    border-radius: 8px;
+    color: white;
+    block-size: 40px;
+    padding: 5px 60px ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#pre{
+    font-weight: bold;
+}
